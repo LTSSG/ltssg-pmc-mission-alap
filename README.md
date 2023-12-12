@@ -1,8 +1,8 @@
 **LTSSG mission fájlok mappa**
 
-**ltssg_mission_alap_fajlok**
+**ezeket a fájlokat másold a mission mappába**
 
-A mappa tartalmazza az Eden editorban készülő küldetésekhez szükséges fájlokat, hogy a küldetés kompatibilis legyen az LTSSG szerverrel és a szerveren használt scriptekkel, beállításokkal. Az **ltssg_mission_alap_fajlok** mappában lévő fájlokat másold be a küldetés mappájába, a mission.sqm fájl mellé!
+A mappa tartalmazza az Eden editorban készülő küldetésekhez szükséges fájlokat, hogy a küldetés kompatibilis legyen az LTSSG szerverrel és a szerveren használt scriptekkel, beállításokkal. Az ebben a mappában lévő fájlokat másold be a küldetés mappájába, a mission.sqm fájl mellé!
 
 **images**
 
