@@ -1,12 +1,11 @@
-true spawn {
-	waitUntil {isPlayer player};
-	if (
-		player getVariable "saved3deninventory" &&
-		isNil {player getVariable "enh_savedloadout"}
-	) then {
-		player setVariable ["enh_savedloadout", getUnitLoadout player];
-	};
-};
+//Save loadout when ACE Arsenal closed
+_id = ["ace_arsenal_displayClosed", {
+
+player setVariable["loadout", getUnitLoadout player];
+systemchat "Aktuális felszerelésed mentésre került!";
+
+}] call CBA_fnc_addEventHandler;
+
 
 //Holster weapon at respawn
 params ["_player", "_didJIP"];
